@@ -16,9 +16,48 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
+  <body class="bg-slate-800">
+    <section
+      class="bg-[#F4F5F7] max-w-md mx-auto min-h-screen p-10 relative"
+    >
+      <div
+        class="flex items-center justify-center flex-col relative mt-16"
+      >
+        <img class="w-full" src="./images/bg.png" alt="" />
+        <img
+          class="absolute top-[10%] left-0 right-0 mx-auto"
+          src="./images/Group.png"
+          alt=""
+        />
+      </div>
+      <div
+        class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl absolute top-[45%]"
+      >
+        <div class="card-body">
+          <fieldset class="fieldset">
+            <label class="fieldset-label">Account No.</label>
+            <input
+              type="email"
+              class="input focus:outline-0"
+              placeholder="Enter account no."
+            />
+            <label class="fieldset-label">Pin</label>
+            <input
+              type="password"
+              class="input focus:outline-0"
+              placeholder="Enter 4 digit pin."
+            />
+            <div>
+              <a class="link link-hover">Forgot pin?</a>
+            </div>
+            <button class="btn btn-neutral mt-4">Login</button>
+          </fieldset>
+        </div>
+      </div>
 
-    
+      <div></div>
+    </section>
+
     <script src="./app.js"></script>
   </body>
 </html>
