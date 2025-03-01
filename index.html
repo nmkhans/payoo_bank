@@ -44,7 +44,9 @@
       <main>
         <section>
           <div class="py-8">
-            <h2 class="text-2xl font-bold mb-3">🔥 Welcome to Payooo!</h2>
+            <h2 class="text-2xl font-bold mb-3">
+              🔥 Welcome to Payooo!
+            </h2>
             <p class="text-[#080808]/50">
               Enjoy easy and convenient financial services with us.
               Cashout charge is low and
@@ -52,34 +54,91 @@
           </div>
         </section>
         <section class="grid grid-cols-3 gap-5">
-          <div class="border border-[#0874F2] p-5 rounded-lg flex flex-col items-center justify-center bg-[#0874F2]/5 cursor-pointer">
-            <img src="./images/wallet1.png" alt="">
-            <h4 class="mt-2 font-bold text-sm text-[#0874F2] text-center">Add Money</h4>
+          <div
+            class="border border-[#0874F2] p-5 rounded-lg flex flex-col items-center justify-center bg-[#0874F2]/5 cursor-pointer"
+          >
+            <img src="./images/wallet1.png" alt="" />
+            <h4
+              class="mt-2 font-bold text-sm text-[#0874F2] text-center"
+            >
+              Add Money
+            </h4>
           </div>
-          <div class="border border-[#080808]/10 p-5 rounded-lg flex flex-col items-center justify-center cursor-pointer">
-            <img src="./images/send1.png" alt="">
+          <div
+            class="border border-[#080808]/10 p-5 rounded-lg flex flex-col items-center justify-center cursor-pointer"
+          >
+            <img src="./images/send1.png" alt="" />
             <h4 class="mt-2 text-sm text-center">Cash Out</h4>
           </div>
-          <div class="border border-[#080808]/10 p-5 rounded-lg flex flex-col items-center justify-center cursor-pointer">
-            <img src="./images/transaction1.png" alt="">
+          <div
+            class="border border-[#080808]/10 p-5 rounded-lg flex flex-col items-center justify-center cursor-pointer"
+          >
+            <img src="./images/transaction1.png" alt="" />
             <h4 class="mt-2 text-sm text-center">Transfer Money</h4>
           </div>
-          <div class="border border-[#080808]/10 p-5 rounded-lg flex flex-col items-center justify-center cursor-pointer">
-            <img src="./images/bonus1.png" alt="">
+          <div
+            class="border border-[#080808]/10 p-5 rounded-lg flex flex-col items-center justify-center cursor-pointer"
+          >
+            <img src="./images/bonus1.png" alt="" />
             <h4 class="mt-2 text-sm text-center">Get Bonus</h4>
           </div>
-          <div class="border border-[#080808]/10 p-5 rounded-lg flex flex-col items-center justify-center cursor-pointer">
-            <img src="./images/wallet1.png" alt="">
+          <div
+            class="border border-[#080808]/10 p-5 rounded-lg flex flex-col items-center justify-center cursor-pointer"
+          >
+            <img src="./images/wallet1.png" alt="" />
             <h4 class="mt-2 text-sm text-center">Pay Bill</h4>
           </div>
-          <div class="border border-[#080808]/10 p-5 rounded-lg flex flex-col items-center justify-center cursor-pointer">
-            <img src="./images/money1.png" alt="">
+          <div
+            class="border border-[#080808]/10 p-5 rounded-lg flex flex-col items-center justify-center cursor-pointer"
+          >
+            <img src="./images/money1.png" alt="" />
             <h4 class="mt-2 text-sm text-center">Transactions</h4>
           </div>
-          
-          
-          
-          
+        </section>
+        <section class="mt-5 py-10">
+          <h2 class="text-xl font-bold mb-5">Add Money</h2>
+          <div
+            class="card bg-base-100 w-full shrink-0 shadow-2xl"
+          >
+            <form class="card-body">
+              <fieldset class="fieldset">
+                <label class="fieldset-label">Select a Bank</label>
+                <select class="select w-full">
+                  <option disabled selected>Select Bank</option>
+                  <option value="bkash">Bkash</option>
+                  <option value="nagad">Nagad</option>
+                  <option value="upay">Upay</option>
+                  <option value="rocket">Rocket</option>
+                  <option value="ucb">UCB</option>
+                  <option value="dbl">DBL</option>
+                  <option value="brack">BRACK</option>
+                </select>
+                <label class="fieldset-label">Bank Account Number</label>
+                <input
+                  type="text"
+                  class="input w-full"
+                  placeholder="Enter 11 digit account no"
+                />
+                <label class="fieldset-label">Amount To Add</label>
+                <input
+                  type="text"
+                  class="input w-full"
+                  placeholder="Enter amount to deposit"
+                />
+                <label class="fieldset-label">Pin Number</label>
+                <input
+                  type="password"
+                  class="input w-full"
+                  placeholder="Enter 4 digit pin"
+                />
+                <button
+                  class="btn btn-neutral mt-4 bg-[#0874F2] border-[#0874F2]"
+                >
+                  Add Money
+                </button>
+              </fieldset>
+            </form>
+          </div>
         </section>
       </main>
     </section>
